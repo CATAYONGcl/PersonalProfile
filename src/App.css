@@ -1,0 +1,115 @@
+body {
+  background-color: #b87b7b; /* Light gray background */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #f7daf9; /* Dark gray header */
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.App-header p {
+  font-size: 1.2rem;
+  max-width: 600px;
+}
+
+.nav-link {
+  color: #007bff; /* Blue color for navigation links */
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.nav-link:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+.page-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.skill-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-list li {
+  background-color: #007bff; /* Blue for skill list items */
+  color: rgb(168, 180, 238);
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ced4da; /* Neutral gray border */
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #007bff; /* Blue for the button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    min-height: 40vh;
+  }
+
+  .App-header h1 {
+    font-size: 2rem;
+  }
+
+  .App-header p {
+    font-size: 1rem;
+  }
+
+  .nav-link {
+    margin: 0 8px;
+  }
+
+  .page-content {
+    padding: 15px;
+  }
+}
